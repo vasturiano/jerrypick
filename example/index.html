@@ -1,0 +1,17 @@
+<script src="//unpkg.com/jerrypick"></script>
+<!--<script src="../dist/jerrypick.js"></script>-->
+
+<script>
+  const { pluck, omit } = jerrypick;
+
+  const myObj = {
+    a: 3,
+    b: 6,
+    c: 9
+  };
+
+  console.log(
+    pluck(myObj, ['a', 'c']),
+    omit(myObj, ['a', 'b'])
+  );
+</script>
