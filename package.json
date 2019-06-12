@@ -1,6 +1,6 @@
 {
   "name": "jerrypick",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Pluck and omit properties from a JS object",
   "unpkg": "dist/jerrypick.min.js",
   "main": "dist/jerrypick.common.js",
