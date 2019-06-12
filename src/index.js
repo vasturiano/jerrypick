@@ -8,7 +8,7 @@ const omit = (obj, keys) => {
     {},
     ...Object.entries(obj)
       .filter(([key]) => !keySet.has(key))
-      .map(key => ({ [key]: obj[key] }))
+      .map(([key, val]) => ({ [key]: val }))
   );
 };
 
