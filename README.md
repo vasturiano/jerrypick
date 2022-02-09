@@ -3,7 +3,7 @@ jerrypick
 
 [![NPM package][npm-img]][npm-url]
 [![Build Size][build-size-img]][build-size-url]
-[![Dependencies][dependencies-img]][dependencies-url]
+[![NPM Downloads][npm-downloads-img]][npm-downloads-url]
 
 Pluck and omit properties from a JS object.
 
@@ -12,21 +12,21 @@ Pluck and omit properties from a JS object.
 
 ## Quick start
 
-```
+```js
 import { pluck, omit } from 'jerrypick';
 ```
 or
-```
+```js
 const { pluck, omit } = require('jerrypick');
 ```
 or even
-```
+```html
 <script src="//unpkg.com/jerrypick"></script>
 ```
 
 ## Usage example
 
-```
+```js
 const myObj = {
   a: 3,
   b: 6,
@@ -45,9 +45,9 @@ omit(myObj, ['a', 'b']);
 ```
 
 
-[npm-img]: https://img.shields.io/npm/v/jerrypick.svg
+[npm-img]: https://img.shields.io/npm/v/jerrypick
 [npm-url]: https://npmjs.org/package/jerrypick
-[build-size-img]: https://img.shields.io/bundlephobia/minzip/jerrypick.svg
+[build-size-img]: https://img.shields.io/bundlephobia/minzip/jerrypick
 [build-size-url]: https://bundlephobia.com/result?p=jerrypick
-[dependencies-img]: https://img.shields.io/david/vasturiano/jerrypick.svg
-[dependencies-url]: https://david-dm.org/vasturiano/jerrypick
+[npm-downloads-img]: https://img.shields.io/npm/dt/jerrypick
+[npm-downloads-url]: https://www.npmtrends.com/jerrypick
