@@ -15,11 +15,7 @@ Pluck and omit properties from a JS object.
 ```js
 import { pluck, omit } from 'jerrypick';
 ```
-or
-```js
-const { pluck, omit } = require('jerrypick');
-```
-or even
+or using a *script* tag
 ```html
 <script src="//unpkg.com/jerrypick"></script>
 ```
