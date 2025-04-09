@@ -3,6 +3,7 @@
   "version": "1.1.1",
   "description": "Pluck and omit properties from a JS object",
   "type": "module",
+  "jsdelivr": "dist/jerrypick.min.js",
   "unpkg": "dist/jerrypick.min.js",
   "main": "dist/jerrypick.mjs",
   "module": "dist/jerrypick.mjs",

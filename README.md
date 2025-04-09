@@ -17,7 +17,7 @@ import { pluck, omit } from 'jerrypick';
 ```
 or using a *script* tag
 ```html
-<script src="//unpkg.com/jerrypick"></script>
+<script src="//cdn.jsdelivr.net/npm/jerrypick"></script>
 ```
 
 ## Usage example
